@@ -1,0 +1,7 @@
+#title, .subtitle, .Post-title{
+    color: blue;
+}
+.Post-title{
+    font-size: 100;
+    font-style:italic;
+}
