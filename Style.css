@@ -1,7 +1,52 @@
-#title, .subtitle, .Post-title{
-    color: blue;
+body {
+    background-color: #c3ccbf;
+    font-family: Verdana;
+    max-width: 1000px;
+    margin:auto;
 }
-.Post-title{
+.photo {
+    border-radius:50px;
+    border: 3px, solid, black;
+    padding: 10px;
+}
+
+.post {
+    background-color: rgb(228, 225, 219);
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(180, 60, 60);
+}
+
+#title , .subtitle,.Post-title {
+    color: rgb(55, 55, 139);
+}
+.subtitle{
+    padding: 10px;
+}
+
+.Post-title {
     font-size: 100;
-    font-style:italic;
+    font-style: italic;
+}
+.post-image {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%
+}
+.contact-list {
+    list-style-type: none;
+    padding-left:10px;
 }
